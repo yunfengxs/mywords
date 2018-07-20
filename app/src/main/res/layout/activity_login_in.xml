@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/timg22"
+
+    android:layout_height="match_parent">
+
+<!-- tools:layout_editor_absoluteY="8dp"
+ tools:layout_editor_absoluteX="8dp"-->
+>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_weight="3"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_gravity="bottom"
+>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="username:"
+        android:layout_gravity="bottom"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="请输入用户名"
+        android:layout_gravity="bottom"
+
+        />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_gravity="top"
+    android:layout_weight="0.1"
+>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" passkey:  "
+        android:layout_gravity="top"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="  请输入密码 "
+        android:layout_gravity="top"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_gravity="top"
+        android:layout_weight="0.1"
+        >
+        <Button
+            android:id="@+id/login_in_bu"
+            android:layout_width="90dp"
+            android:layout_height="28dp"
+            android:layout_gravity="top"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:text="点击进入"
+            android:background="#11111111"
+            />
+        <Button
+            android:id="@+id/zhuce"
+            android:layout_width="90dp"
+            android:layout_height="28dp"
+            android:layout_gravity="top"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="10dp"
+            android:text="点击注册"
+            android:background="#11111111"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+

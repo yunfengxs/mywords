@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">我的单词本</string>
+    <string name="title_home"></string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_shops">shops</string>
+    <string name="title_activity_daka">daka</string>
+</resources>
